@@ -8,11 +8,6 @@
   .text {
     font-size: 5em;
     user-select: none;
-    transition: 0.3s all ease;
     cursor: pointer;
-    &:hover {
-      color: #555;
-      transform: scale(1.2);
-    }
   }
 }

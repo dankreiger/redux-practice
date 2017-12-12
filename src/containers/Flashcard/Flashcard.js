@@ -6,9 +6,9 @@ class Flashcard extends Component {
   render() {
     return(
       <div className='Flashcard'>
-        <button onClick={this.props.nextCard}>Next</button>
-        <div className='text'>{this.props.cardNr}</div>
         <button onClick={this.props.prevCard}>Prev</button>
+        <div className='text'>{this.props.cardNr}</div>
+        <button onClick={this.props.nextCard}>Next</button>
       </div>
     );
   }
