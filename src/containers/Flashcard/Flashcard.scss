@@ -1,0 +1,18 @@
+.Flashcard {
+  min-height: 100%; // Fallback
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .text {
+    font-size: 5em;
+    user-select: none;
+    transition: 0.3s all ease;
+    cursor: pointer;
+    &:hover {
+      color: #555;
+      transform: scale(1.2);
+    }
+  }
+}
