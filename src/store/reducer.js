@@ -7,12 +7,12 @@ const reducer = (state = initialState, action) => {
     case 'NEXT_CARD':
       return {
         ...state,
-        cardNr: state.cardNr + 1
+        cardNr: state.cardNr + action.val
       }
     case 'PREV_CARD':
       return {
         ...state,
-        cardNr: state.cardNr - 1
+        cardNr: state.cardNr - action.val
       }
     default:
       return state;

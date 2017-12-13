@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`class App extends _react.Component {
+  render() {
+    return (
+      _react2.default.createElement('div', { className: 'App', __source: { fileName: _jsxFileName, lineNumber: 8 }, __self: this },
+        _react2.default.createElement(_Flashcard2.default, { __source: { fileName: _jsxFileName, lineNumber: 9 }, __self: this })));
+
+
+  }} renders correctly 1`] = `
+<div
+  className="App"
+>
+  <Connect(Flashcard) />
+</div>
+`;

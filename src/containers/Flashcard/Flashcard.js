@@ -22,9 +22,9 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    nextCard: () => dispatch({type: 'NEXT_CARD'}),
-    prevCard: () => dispatch({type: 'PREV_CARD'})
-    
+    nextCard: () => dispatch({type: 'NEXT_CARD', val: 1}),
+    prevCard: () => dispatch({type: 'PREV_CARD', val: 1})
+
   };
 };
 
