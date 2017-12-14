@@ -18,7 +18,6 @@
     "sass-lint": "^1.12.1"
   },
   "jest": {
-    "setupFiles": ["./setupTests.js"],
     "snapshotSerializers": ["enzyme-to-json/serializer"]
   },
   "scripts": {
